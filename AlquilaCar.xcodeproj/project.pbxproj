@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FB09E7FB2CDA8910007CB396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09E7FA2CDA8910007CB396 /* AppDelegate.swift */; };
 		FB09E7FD2CDA8910007CB396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09E7FC2CDA8910007CB396 /* SceneDelegate.swift */; };
-		FB09E7FF2CDA8910007CB396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09E7FE2CDA8910007CB396 /* ViewController.swift */; };
 		FB09E8022CDA8910007CB396 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB09E8012CDA8910007CB396 /* Base */; };
 		FB09E8052CDA8910007CB396 /* AlquilaCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB09E8032CDA8910007CB396 /* AlquilaCar.xcdatamodeld */; };
 		FB09E8072CDA8912007CB396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB09E8062CDA8912007CB396 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		FB09E7F72CDA8910007CB396 /* AlquilaCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlquilaCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB09E7FA2CDA8910007CB396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB09E7FC2CDA8910007CB396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB09E7FE2CDA8910007CB396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB09E8012CDA8910007CB396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB09E8042CDA8910007CB396 /* AlquilaCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlquilaCar.xcdatamodel; sourceTree = "<group>"; };
 		FB09E8062CDA8912007CB396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				FB09E7FA2CDA8910007CB396 /* AppDelegate.swift */,
 				FB09E7FC2CDA8910007CB396 /* SceneDelegate.swift */,
-				FB09E7FE2CDA8910007CB396 /* ViewController.swift */,
 				FB09E8002CDA8910007CB396 /* Main.storyboard */,
 				FB09E8062CDA8912007CB396 /* Assets.xcassets */,
 				FB09E8082CDA8912007CB396 /* LaunchScreen.storyboard */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB09E7FF2CDA8910007CB396 /* ViewController.swift in Sources */,
 				FB09E7FB2CDA8910007CB396 /* AppDelegate.swift in Sources */,
 				FB09E8052CDA8910007CB396 /* AlquilaCar.xcdatamodeld in Sources */,
 				FB09E7FD2CDA8910007CB396 /* SceneDelegate.swift in Sources */,
