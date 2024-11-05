@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X5k-6t-1Ll">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Vehículos-->
         <scene sceneID="Tod-ap-64Q">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jmW-rQ-wc7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="XdV-nh-8ew" sceneMemberID="viewController">
+                <viewController id="XdV-nh-8ew" customClass="ListadoViewController" customModule="AlquilaCar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YPV-lF-NWr">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,13 +20,14 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Vehículos" image="car" catalog="system" id="19U-8I-IHe"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jmW-rQ-wc7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-141" y="-201"/>
+            <point key="canvasLocation" x="785.49618320610682" y="-201.40845070422537"/>
         </scene>
         <!--Reservas-->
         <scene sceneID="v6B-ce-kp9">
             <objects>
-                <viewController id="BIH-ir-gXT" sceneMemberID="viewController">
+                <viewController id="BIH-ir-gXT" customClass="ReservaViewController" customModule="AlquilaCar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oZP-R6-h3i">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +38,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abd-L7-4bK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-141" y="-857"/>
+            <point key="canvasLocation" x="785.49618320610682" y="-857.04225352112678"/>
+        </scene>
+        <!--Inicio View Controller-->
+        <scene sceneID="3Y9-RV-1nG">
+            <objects>
+                <viewController id="1fI-DJ-u6R" customClass="InicioViewController" customModule="AlquilaCar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yU2-vm-N1X">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="R76-TQ-LRx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IEx-jf-xdn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TVc-pT-Tzh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1111" y="-589"/>
+        </scene>
+        <!--Registro View Controller-->
+        <scene sceneID="PLh-on-2FY">
+            <objects>
+                <viewController id="XZQ-5Q-MoX" customClass="RegistroViewController" customModule="AlquilaCar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4gj-Ot-Pnr">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="deF-Tb-Ucf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s0z-Zq-8c8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1111" y="118"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="rmq-gP-o3i">
@@ -57,13 +89,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vQo-4p-eLW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1059" y="-352"/>
+            <point key="canvasLocation" x="-133.58778625954199" y="-352.11267605633805"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="UeH-pp-1Pw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rpq-l3-JkN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="OYB-BF-U6n" sceneMemberID="viewController">
+                <viewController id="OYB-BF-U6n" customClass="PerfilViewController" customModule="AlquilaCar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jhe-jj-lGh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,13 +103,35 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Perfil" image="person.circle" catalog="system" id="HK0-Uz-0FP"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rpq-l3-JkN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-141" y="467"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rCr-v9-Gpl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gd1-hZ-hbv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1Ob-ba-Md7">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1fI-DJ-u6R" kind="relationship" relationship="rootViewController" id="2Ns-Dh-TBx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x4f-MT-v0L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2044" y="-254"/>
         </scene>
     </scenes>
     <resources>
         <image name="book.pages" catalog="system" width="107" height="128"/>
         <image name="car" catalog="system" width="128" height="95"/>
         <image name="person.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

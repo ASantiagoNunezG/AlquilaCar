@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2899FE932CDAC165004A1A05 /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899FE922CDAC165004A1A05 /* ListadoViewController.swift */; };
+		2899FE952CDAC192004A1A05 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899FE942CDAC192004A1A05 /* PerfilViewController.swift */; };
+		2899FE972CDAC1B7004A1A05 /* ReservaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899FE962CDAC1B7004A1A05 /* ReservaViewController.swift */; };
+		2899FE992CDAC65F004A1A05 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899FE982CDAC65F004A1A05 /* InicioViewController.swift */; };
+		2899FE9B2CDAC73A004A1A05 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899FE9A2CDAC73A004A1A05 /* RegistroViewController.swift */; };
 		FB09E7FB2CDA8910007CB396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09E7FA2CDA8910007CB396 /* AppDelegate.swift */; };
 		FB09E7FD2CDA8910007CB396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB09E7FC2CDA8910007CB396 /* SceneDelegate.swift */; };
 		FB09E8022CDA8910007CB396 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB09E8012CDA8910007CB396 /* Base */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2899FE922CDAC165004A1A05 /* ListadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
+		2899FE942CDAC192004A1A05 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		2899FE962CDAC1B7004A1A05 /* ReservaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservaViewController.swift; sourceTree = "<group>"; };
+		2899FE982CDAC65F004A1A05 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		2899FE9A2CDAC73A004A1A05 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		FB09E7F72CDA8910007CB396 /* AlquilaCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlquilaCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB09E7FA2CDA8910007CB396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB09E7FC2CDA8910007CB396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +73,11 @@
 				FB09E8082CDA8912007CB396 /* LaunchScreen.storyboard */,
 				FB09E80B2CDA8912007CB396 /* Info.plist */,
 				FB09E8032CDA8910007CB396 /* AlquilaCar.xcdatamodeld */,
+				2899FE922CDAC165004A1A05 /* ListadoViewController.swift */,
+				2899FE942CDAC192004A1A05 /* PerfilViewController.swift */,
+				2899FE962CDAC1B7004A1A05 /* ReservaViewController.swift */,
+				2899FE982CDAC65F004A1A05 /* InicioViewController.swift */,
+				2899FE9A2CDAC73A004A1A05 /* RegistroViewController.swift */,
 			);
 			path = AlquilaCar;
 			sourceTree = "<group>";
@@ -139,8 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB09E7FB2CDA8910007CB396 /* AppDelegate.swift in Sources */,
+				2899FE932CDAC165004A1A05 /* ListadoViewController.swift in Sources */,
+				2899FE992CDAC65F004A1A05 /* InicioViewController.swift in Sources */,
 				FB09E8052CDA8910007CB396 /* AlquilaCar.xcdatamodeld in Sources */,
 				FB09E7FD2CDA8910007CB396 /* SceneDelegate.swift in Sources */,
+				2899FE9B2CDAC73A004A1A05 /* RegistroViewController.swift in Sources */,
+				2899FE952CDAC192004A1A05 /* PerfilViewController.swift in Sources */,
+				2899FE972CDAC1B7004A1A05 /* ReservaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
