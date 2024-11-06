@@ -1,5 +1,5 @@
 //
-//  RegistroViewController.swift
+//  TapBarController.swift
 //  AlquilaCar
 //
 //  Created by nunez on 5/11/24.
@@ -7,21 +7,20 @@
 
 import UIKit
 
-class RegistroViewController: UIViewController {
+class TapBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Ocultar la opcion de Back
         self.navigationItem.hidesBackButton = true
+        
+        //El item seleccionado sera el del medio
+        self.selectedIndex = 1
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func goToInicio(_ sender: Any) {
-        performSegue(withIdentifier: "toInicio", sender: nil)
-    }
-    
-    @IBAction func btnGoToTapBarController2(_ sender: Any) {
-        performSegue(withIdentifier: "toTapBarController2", sender: nil)
-    }
+
     /*
     // MARK: - Navigation
 

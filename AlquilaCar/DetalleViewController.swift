@@ -1,5 +1,5 @@
 //
-//  RegistroViewController.swift
+//  DetalleViewController.swift
 //  AlquilaCar
 //
 //  Created by nunez on 5/11/24.
@@ -7,21 +7,15 @@
 
 import UIKit
 
-class RegistroViewController: UIViewController {
+class DetalleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.hidesBackButton = true
+
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func goToInicio(_ sender: Any) {
-        performSegue(withIdentifier: "toInicio", sender: nil)
-    }
-    
-    @IBAction func btnGoToTapBarController2(_ sender: Any) {
-        performSegue(withIdentifier: "toTapBarController2", sender: nil)
-    }
+
     /*
     // MARK: - Navigation
 

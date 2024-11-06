@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28244D462CDAF4B500A2E29F /* TapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28244D452CDAF4B500A2E29F /* TapBarController.swift */; };
+		28244D482CDB0CB700A2E29F /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28244D472CDB0CB700A2E29F /* DetalleViewController.swift */; };
+		28244D4A2CDB161800A2E29F /* EditarPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28244D492CDB161800A2E29F /* EditarPerfilViewController.swift */; };
+		28244D4C2CDB165600A2E29F /* ReservarFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28244D4B2CDB165600A2E29F /* ReservarFormViewController.swift */; };
 		2899FE932CDAC165004A1A05 /* ListadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899FE922CDAC165004A1A05 /* ListadoViewController.swift */; };
 		2899FE952CDAC192004A1A05 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899FE942CDAC192004A1A05 /* PerfilViewController.swift */; };
 		2899FE972CDAC1B7004A1A05 /* ReservaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899FE962CDAC1B7004A1A05 /* ReservaViewController.swift */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28244D452CDAF4B500A2E29F /* TapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarController.swift; sourceTree = "<group>"; };
+		28244D472CDB0CB700A2E29F /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		28244D492CDB161800A2E29F /* EditarPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarPerfilViewController.swift; sourceTree = "<group>"; };
+		28244D4B2CDB165600A2E29F /* ReservarFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservarFormViewController.swift; sourceTree = "<group>"; };
 		2899FE922CDAC165004A1A05 /* ListadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoViewController.swift; sourceTree = "<group>"; };
 		2899FE942CDAC192004A1A05 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		2899FE962CDAC1B7004A1A05 /* ReservaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservaViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +86,10 @@
 				2899FE962CDAC1B7004A1A05 /* ReservaViewController.swift */,
 				2899FE982CDAC65F004A1A05 /* InicioViewController.swift */,
 				2899FE9A2CDAC73A004A1A05 /* RegistroViewController.swift */,
+				28244D452CDAF4B500A2E29F /* TapBarController.swift */,
+				28244D472CDB0CB700A2E29F /* DetalleViewController.swift */,
+				28244D492CDB161800A2E29F /* EditarPerfilViewController.swift */,
+				28244D4B2CDB165600A2E29F /* ReservarFormViewController.swift */,
 			);
 			path = AlquilaCar;
 			sourceTree = "<group>";
@@ -153,11 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28244D4C2CDB165600A2E29F /* ReservarFormViewController.swift in Sources */,
 				FB09E7FB2CDA8910007CB396 /* AppDelegate.swift in Sources */,
 				2899FE932CDAC165004A1A05 /* ListadoViewController.swift in Sources */,
+				28244D4A2CDB161800A2E29F /* EditarPerfilViewController.swift in Sources */,
 				2899FE992CDAC65F004A1A05 /* InicioViewController.swift in Sources */,
 				FB09E8052CDA8910007CB396 /* AlquilaCar.xcdatamodeld in Sources */,
+				28244D462CDAF4B500A2E29F /* TapBarController.swift in Sources */,
 				FB09E7FD2CDA8910007CB396 /* SceneDelegate.swift in Sources */,
+				28244D482CDB0CB700A2E29F /* DetalleViewController.swift in Sources */,
 				2899FE9B2CDAC73A004A1A05 /* RegistroViewController.swift in Sources */,
 				2899FE952CDAC192004A1A05 /* PerfilViewController.swift in Sources */,
 				2899FE972CDAC1B7004A1A05 /* ReservaViewController.swift in Sources */,

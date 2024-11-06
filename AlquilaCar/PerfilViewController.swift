@@ -9,9 +9,12 @@ import UIKit
 
 class PerfilViewController: UIViewController {
 
+    @IBOutlet weak var imgPerfil: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        imgPerfil.layer.cornerRadius = imgPerfil.frame.size.width/2
+        imgPerfil.clipsToBounds = true
         // Do any additional setup after loading the view.
     }
     
